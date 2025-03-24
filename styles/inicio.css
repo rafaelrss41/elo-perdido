@@ -27,28 +27,31 @@ header{
 }
 
 header h2{
-  color:#000;
-  font-weight: 800;
+  color:#f9f9f9;
+  font-weight: 900;
+  
 }
 
 
 header .logo img{
   max-width: 50px;
   border-radius: 50% 50%;
+  margin-right: 12px;
 }
 
 .background{
-  position: relative;
+  position: absolute;
   width: 100vw;
-  min-height: 100vh;
+  height: 100vh;
   padding: 0 100px;
   background: url("../images/hills and trees.jpeg");
   background-size: cover;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   opacity: 0.5;
 }
+
 .logo{
   font-size: 2em;
   pointer-events: none;
@@ -57,7 +60,7 @@ header .logo img{
 
 .nav a{
   text-decoration: none;
-  color: #000;
+  color: #f9f9f9;
   padding: 6px 10px;
   font-weight: 600;
   font-size: large;
@@ -100,31 +103,53 @@ header .logo img{
 
 .sec{
   position: relative;
-  background: #000;
+  background: url("../images/backgroundinicio.jpeg");
+  background-size: cover;
   padding: 100px;
   margin-top: -60px;
+  opacity:1;
 }
 
 .sec h2{
   font-size: 3em;
-  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: blue;
   margin-bottom: 10px;
 }
 
 .sec p{
   font-size: 1em;
-  color: #fff;
-  font-weight: 300;
+  color: blue;
+  font-weight: 500;
 }
 
 .works{
   font-size: 2em;
   margin-bottom: 10px;
 }
+.section-works{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-works .works img{
+  padding: 1px;
+  position: relative;
+  max-width: 204px;
+  border-radius: 50px 50px;
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
 .works p{
   font-size: 1em;
-  color:#f9f9f9;
+  color: blue;
   margin-bottom: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .works img{
   position: relative;
@@ -132,17 +157,33 @@ header .logo img{
   border-radius: 15px 15px;
 }
 
+.section-ornaments{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-ornaments .ornaments img{
+  
+  padding: 1px;
+  position: relative;
+  max-width: 204px;
+  border-radius: 50px 50px;
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
 .ornaments{
-  margin-top: 25px;
+  margin-top: 150px;
 }
 
-.ornaments img{
-  position: relative;
-  max-width: 150px;
-  border-radius: 15px 15px;
-}
 .ornaments p{
   font-size: 2em;
-  color: #f9f9f9;
+  color: paleturquoise;
+  text-transform: uppercase;
+  font-weight: 500;
   margin-bottom: 25px;
+  margin-top: -50px;
+  text-align: center;
 }
+
